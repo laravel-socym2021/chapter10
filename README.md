@@ -9,3 +9,11 @@
 - [Monolog\Handler\ElasticSearchHandlerクラス登録例](app/Providers/AppServiceProvider.php)
 - [elasticsearchドライバ設定](config/logging.php)   
 - [アクセスログをelasticsearchに送信する](app/Http/Controllers/IndexAction.php)
+
+## Docker 
+
+```bash
+$ docker-compose build
+$ docker-compose up -d
+$ docker-compose exec -w /var/www/html php composer install
+```
